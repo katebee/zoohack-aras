@@ -1,28 +1,56 @@
-.App {
+.is-hidden {
+  display: none;
+}
+
+.aras {
   text-align: center;
 }
 
-.App-logo {
+.aras-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 80px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.aras-main {
+  background-color: #f6f6f6;
 }
 
-.App-title {
-  font-size: 1.5em;
+.aras-header {
+  background-color: #b82266;
+  color: #ffffff;
+  font-weight: 900;
 }
 
-.App-intro {
+.aras-header__row {
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.aras-title {
+  font-size: 4em;
+}
+
+.aras-title .aras-icon {
+  font-size: 45px;
+}
+
+.aras-intro {
   font-size: large;
 }
 
-@keyframes App-logo-spin {
+.nav-item {
+  font-size: 3em;
+}
+
+.aras-nav {
+  background-color: #951c55;
+}
+
+.mdl-layout__tab-bar-button {
+  background-color: #951c55;
+}
+
+@keyframes aras-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
