@@ -1,0 +1,36 @@
+.ranger-add__text,
+.ranger-name {
+  margin: auto 0;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+.ranger-card {
+  margin: 20px;
+  display: inline-block;
+}
+
+.ranger-details {
+  align-items: center;
+  display: flex;
+}
+
+.ranger-details__item {
+  padding-left: 10px;
+}
+
+.ranger-add {
+  margin: 0 20px;
+  height: 96px;
+  min-height: 96px;
+}
+
+.ranger-add__button {
+  margin-right: 10px;
+  background: #b82266;
+  color: #ffffff;
+}
+
+.ranger-add__button:hover {
+  background-color: #951c55;
+}
