@@ -2,6 +2,8 @@
   "name": "zoohack",
   "version": "0.0.1",
   "private": true,
+  "homepage": "/static",
+  "proxy": "http://172.16.0.111:5000",
   "devDependencies": {
     "react-scripts": "1.0.14"
   },
