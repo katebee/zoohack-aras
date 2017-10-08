@@ -16,7 +16,7 @@
 }
 
 .aras-header {
-  background-color: #b82266;
+  background-color: #42ab9e;
   color: #ffffff;
   font-weight: 900;
 }
@@ -24,10 +24,12 @@
 .aras-header__row {
   margin-top: 5px;
   margin-bottom: 10px;
+  justify-content: center;
 }
 
 .aras-title {
   font-size: 4em;
+  margin-left: -60px;
 }
 
 .aras-title .aras-icon {
@@ -43,11 +45,25 @@
 }
 
 .aras-nav {
-  background-color: #951c55;
+  background-color: #34887e;
+  justify-content: center;
 }
 
 .mdl-layout__tab-bar-button {
-  background-color: #951c55;
+  background-color: #34887e;
+}
+
+.mdl-layout.is-upgraded .mdl-layout__tab.is-active::after {
+  background-color: #8dd3cb;
+}
+
+.tab-name {
+  align-items: center;
+  display: flex;
+}
+
+.tab-name__text {
+  padding-left: 10px;
 }
 
 @keyframes aras-logo-spin {

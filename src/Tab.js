@@ -9,12 +9,17 @@ export default class Tab extends Component {
     return (
       <a
         href={`#fixed-tab-${this.props.tabIndex}`}
-        className={`mdl-layout__tab ${this.props.isActive ? 'is-active' : ''}`}
+        className={`mdl-layout__tab aras-nav__tab ${this.props.isActive ? 'is-active' : ''}`}
         onClick={() => {
           this.onClick();
         }}
       >
-        {this.props.name}
+        <div className="tab-name">
+          <i className="material-icons">{this.props.icon}</i>
+          <span className="tab-name__text">
+            {' '}{this.props.name}
+          </span>
+      </div>
       </a>
     );
   }

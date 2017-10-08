@@ -14,8 +14,8 @@ class App extends Component {
     super(props);
 
     this.state = {
-      activeTab: 'Home',
-      tabs: ['Home', 'Rangers', 'Settings'],
+      activeTab: 'Settings',
+      tabs: [{name: 'Home', icon: 'home'}, {name: 'Rangers', icon: 'person'}, {name: 'Settings', icon: 'settings'}],
       logs: {},
     };
   }
@@ -40,9 +40,6 @@ class App extends Component {
           <header className="mdl-layout__header aras-header">
             <div className="mdl-layout__header-row aras-header__row">
               <span className="aras-title"><i className="material-icons aras-icon">toys</i>{' '}A.R.A.S</span>
-
-              <div className="mdl-layout-spacer" />
-
             </div>
 
             <Tabs

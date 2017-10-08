@@ -22,7 +22,7 @@ export default class Ranger extends Component {
           </span>
         </div>
         <div className="mdl-card__actions mdl-card--border">
-          <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"><i class="material-icons">message</i>
+          <a className="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect"><i className="material-icons">message</i>
             {' '}Message
           </a>
         </div>

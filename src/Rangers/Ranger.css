@@ -6,7 +6,7 @@
 }
 
 .ranger-card {
-  margin: 20px;
+  margin: 20px 20px 0 20px;
   display: inline-block;
 }
 
@@ -20,17 +20,46 @@
 }
 
 .ranger-add {
-  margin: 0 20px;
+  margin: 20px 20px 0 20px;
   height: 96px;
   min-height: 96px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ranger-add--expanded {
+  height: 320px;
 }
 
 .ranger-add__button {
   margin-right: 10px;
-  background: #b82266;
+  background: #e5a903;
   color: #ffffff;
 }
 
-.ranger-add__button:hover {
-  background-color: #951c55;
+.ranger-add__form {
+
+}
+
+.ranger-add__wrapper {
+  display: flex;
+}
+
+.ranger-add__save,
+.ranger-add__cancel {
+  background-color: #e5a903;
+  color: #ffffff;
+  margin: 20px auto;
+  height: 40px;
+  width: 100px;
+}
+
+.ranger-add__button:hover,
+.ranger-add__save:hover,
+.ranger-add__cancel:hover {
+  background-color: #ce9802;
+}
+
+.ranger-add--expanded .ranger-add__button {
+  display: none;
 }

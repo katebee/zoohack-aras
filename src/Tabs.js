@@ -10,10 +10,11 @@ export default class Tabs extends Component {
   render() {
     return (
       <div className="mdl-layout__tab-bar aras-nav">
-        {this.props.tabs.map((name, i) => (
+        {this.props.tabs.map(({name, icon}, i) => (
           <Tab
             key={i}
             name={name}
+            icon={icon}
             tabIndex={i}
             isActive={this.props.activeTab === name}
             onTabSelect={tabName => {
